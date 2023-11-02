@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title> Question | Creation </title>
+
+  <link th:href="@{./Style.css}" rel="stylesheet">
+
+</head>
+<body>
+
+<div>
+  <h2>Question</h2>
+  <form action="/createQuestion1" method="post"  th:object="${questionForm}">
+    <div>
+      <label for="questionTitle">Name   :</label>
+      <input type="text" id="questionTitle" name="questionTitle" required>
+    </div>
+    <div>
+      <label for="option1">option1:</label>
+      <input type="text" id="option1" name="option1" required>
+    </div>
+    <div>
+      <label for="option2">option2:</label>
+      <input type="text" id="option2" name="option." required>
+    </div>
+    <div>
+      <label for="option3">option3:</label>
+      <input type="text" id="option3" name="option3" required>
+    </div>
+    <div>
+      <label for="option4">option4:</label>
+      <input type="text" id="option4" name="option4" required>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
