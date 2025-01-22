@@ -1,13 +1,13 @@
-package com.ak.quizApp;
+package com.ak.springaidemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuizAppApplication {
+public class AiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuizAppApplication.class, args);
+		SpringApplication.run(AiApplication.class, args);
 	}
-
 }
+

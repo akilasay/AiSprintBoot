@@ -1,10 +1,10 @@
-package com.ak.quizApp;
+package com.ak.springaidemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuizAppApplicationTests {
+class AiApplicationTests {
 
 	@Test
 	void contextLoads() {
